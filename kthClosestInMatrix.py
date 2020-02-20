@@ -8,6 +8,5 @@ class Solution:
         for i in range(len(matrix)):
             for j in range(len(matrix[i])):
                 smallestqueue.append(matrix[i][j])
-                smallestqueue.sort()
-        print(smallestqueue)
+        smallestqueue.sort()
         return smallestqueue[k-1]
